@@ -3,10 +3,10 @@
     <div class="container">
       <div class="hero-content">
         <div class="hero-text">
-          <h1 class="hero-title">你好，我是<span class="highlight">开发者</span></h1>
-          <p class="hero-subtitle">全栈开发者 & 技术爱好者</p>
+          <h1 class="hero-title">Welcome!</h1>
+          <p class="hero-subtitle">欢迎来到我的主页，希望通过这个主页你可以了解我、我的项目和我的技术爱好。</p>
           <p class="hero-description">
-            专注于构建优雅、高效的Web应用，热爱学习新技术，享受解决问题的过程。
+            GitHub 地址：<a href="https://github.com/panzerdream" target="_blank" class="github-link">我的GitHub</a>
           </p>
           <div class="hero-buttons">
             <router-link to="/projects" class="btn btn-primary">查看我的项目</router-link>

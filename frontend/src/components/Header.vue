@@ -2,15 +2,16 @@
   <header class="header">
     <div class="container">
       <div class="logo">
-        <router-link to="/">个人首页</router-link>
+        <router-link to="/">
+          <div class="logo-text">Xu Yao's Blog</div></router-link>
       </div>
       <nav class="nav">
         <ul>
-          <li><router-link to="/">首页</router-link></li>
-          <li><router-link to="/about">关于我</router-link></li>
-          <li><router-link to="/skills">技能</router-link></li>
-          <li><router-link to="/projects">项目</router-link></li>
-          <li><router-link to="/contact">联系我</router-link></li>
+          <li><router-link to="/">Home</router-link></li>
+          <li><router-link to="/about">About me</router-link></li>
+          <li><router-link to="/skills">Skills</router-link></li>
+          <li><router-link to="/projects">Projects</router-link></li>
+          <li><router-link to="/contact">Contact</router-link></li>
         </ul>
       </nav>
     </div>
@@ -26,12 +27,12 @@
 
 /* 添加活动链接样式 */
 .router-link-active {
-  color: #4a90e2;
+  color: #b08d57;
   font-weight: bold;
 }
 
 .router-link-exact-active {
-  color: #4a90e2;
+  color: #b08d57;
   font-weight: bold;
 }
 </style>
