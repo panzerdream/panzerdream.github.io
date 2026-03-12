@@ -1,5 +1,5 @@
 <template>
-  <section id="home" class="hero">
+  <section class="hero">
     <div class="container">
       <div class="hero-content">
         <div class="hero-text">
@@ -9,8 +9,8 @@
             专注于构建优雅、高效的Web应用，热爱学习新技术，享受解决问题的过程。
           </p>
           <div class="hero-buttons">
-            <a href="#projects" class="btn btn-primary">查看我的项目</a>
-            <a href="#contact" class="btn btn-secondary">联系我</a>
+            <router-link to="/projects" class="btn btn-primary">查看我的项目</router-link>
+            <router-link to="/contact" class="btn btn-secondary">联系我</router-link>
           </div>
         </div>
         <div class="hero-image">

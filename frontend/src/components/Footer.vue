@@ -3,7 +3,7 @@
     <div class="container">
       <div class="footer-content">
         <div class="footer-logo">
-          <a href="#home">个人首页</a>
+          <router-link to="/">个人首页</router-link>
         </div>
         <p class="footer-text">© 2026 个人首页. 保留所有权利.</p>
         <p class="footer-note">知不足而奋进</p>

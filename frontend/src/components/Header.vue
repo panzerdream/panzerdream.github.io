@@ -2,15 +2,15 @@
   <header class="header">
     <div class="container">
       <div class="logo">
-        <a href="#home">个人首页</a>
+        <router-link to="/">个人首页</router-link>
       </div>
       <nav class="nav">
         <ul>
-          <li><a href="#home">首页</a></li>
-          <li><a href="#about">关于我</a></li>
-          <li><a href="#skills">技能</a></li>
-          <li><a href="#projects">项目</a></li>
-          <li><a href="#contact">联系我</a></li>
+          <li><router-link to="/">首页</router-link></li>
+          <li><router-link to="/about">关于我</router-link></li>
+          <li><router-link to="/skills">技能</router-link></li>
+          <li><router-link to="/projects">项目</router-link></li>
+          <li><router-link to="/contact">联系我</router-link></li>
         </ul>
       </nav>
     </div>
@@ -23,4 +23,15 @@
 
 <style scoped>
 /* 样式已在全局CSS中定义 */
+
+/* 添加活动链接样式 */
+.router-link-active {
+  color: #4a90e2;
+  font-weight: bold;
+}
+
+.router-link-exact-active {
+  color: #4a90e2;
+  font-weight: bold;
+}
 </style>
