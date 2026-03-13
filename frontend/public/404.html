@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>页面未找到 - 个人主页</title>
+    <style>
+        body {
+            font-family: 'Inter', 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+        
+        .container {
+            max-width: 600px;
+            padding: 2rem;
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            border-radius: 20px;
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+        }
+        
+        h1 {
+            font-size: 4rem;
+            margin: 0;
+            color: white;
+        }
+        
+        h2 {
+            font-size: 2rem;
+            margin: 1rem 0;
+            color: white;
+        }
+        
+        p {
+            font-size: 1.1rem;
+            line-height: 1.6;
+            margin-bottom: 2rem;
+            opacity: 0.9;
+        }
+        
+        .buttons {
+            display: flex;
+            gap: 1rem;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        
+        .btn {
+            display: inline-block;
+            padding: 0.8rem 1.5rem;
+            background: white;
+            color: #667eea;
+            text-decoration: none;
+            border-radius: 50px;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            border: 2px solid white;
+        }
+        
+        .btn:hover {
+            background: transparent;
+            color: white;
+            transform: translateY(-2px);
+        }
+        
+        .btn-secondary {
+            background: transparent;
+            color: white;
+            border: 2px solid white;
+        }
+        
+        .btn-secondary:hover {
+            background: white;
+            color: #667eea;
+        }
+        
+        @media (max-width: 768px) {
+            .container {
+                margin: 1rem;
+                padding: 1.5rem;
+            }
+            
+            h1 {
+                font-size: 3rem;
+            }
+            
+            h2 {
+                font-size: 1.5rem;
+            }
+        }
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div style="font-size: 5rem; margin-bottom: 1rem;">
+            <i class="fas fa-exclamation-triangle"></i>
+        </div>
+        <h1>404</h1>
+        <h2>页面未找到</h2>
+        <p>抱歉，您访问的页面不存在或已被移动。</p>
+        <p>这可能是因为您直接访问了Vue路由的URL，请确保使用哈希模式URL访问。</p>
+        <div class="buttons">
+            <a href="/" class="btn">
+                <i class="fas fa-home"></i> 返回首页
+            </a>
+            <a href="/#/projects" class="btn btn-secondary">
+                <i class="fas fa-code"></i> 查看项目
+            </a>
+            <a href="/#/contact" class="btn btn-secondary">
+                <i class="fas fa-envelope"></i> 联系我
+            </a>
+        </div>
+        <div style="margin-top: 2rem; font-size: 0.9rem; opacity: 0.7;">
+            <p>提示：GitHub Pages使用静态托管，请使用哈希路由模式访问：</p>
+            <p style="font-family: monospace; background: rgba(0,0,0,0.2); padding: 0.5rem; border-radius: 5px;">
+                https://panzerdream.github.io/#/路径
+            </p>
+        </div>
+    </div>
+</body>
+</html>

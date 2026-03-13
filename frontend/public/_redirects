@@ -1,0 +1,3 @@
+# GitHub Pages SPA重定向规则
+# 将所有非文件请求重定向到index.html
+/*    /index.html   200

@@ -3,13 +3,73 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>个人首页 - 我的个人主页</title>
+    <title>panzerdream - 个人主页</title>
+    <meta name="description" content="panzerdream的个人主页，展示我的项目、技能和联系方式。">
+    <meta name="keywords" content="个人主页, 开发者, 项目展示, 技能, Vue.js, GitHub Pages">
+    <meta name="author" content="panzerdream">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://panzerdream.github.io/">
+    <meta property="og:title" content="panzerdream - 个人主页">
+    <meta property="og:description" content="panzerdream的个人主页，展示我的项目、技能和联系方式。">
+    <meta property="og:image" content="https://panzerdream.github.io/og-image.png">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://panzerdream.github.io/">
+    <meta property="twitter:title" content="panzerdream - 个人主页">
+    <meta property="twitter:description" content="panzerdream的个人主页，展示我的项目、技能和联系方式。">
+    <meta property="twitter:image" content="https://panzerdream.github.io/og-image.png">
+    
+    <!-- 预加载关键资源 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com">
+    
+    <!-- 样式和字体 -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    
+    <!-- 图标 -->
     <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+    
+    <!-- 主题颜色 -->
+    <meta name="theme-color" content="#667eea">
+    
+    <!-- 禁止翻译 -->
+    <meta name="google" content="notranslate">
+    
+    <!-- 禁止电话格式检测 -->
+    <meta name="format-detection" content="telephone=no">
 </head>
 <body>
+    <noscript>
+        <div style="text-align: center; padding: 2rem; background: #f8f9fa; color: #333;">
+            <h2>需要启用JavaScript</h2>
+            <p>此网站需要JavaScript才能正常运行。请启用浏览器中的JavaScript功能。</p>
+            <p>或者，您可以直接访问我的GitHub：<a href="https://github.com/panzerdream">https://github.com/panzerdream</a></p>
+        </div>
+    </noscript>
+    
     <div id="app"></div>
+    
+    <!-- 加载脚本 -->
     <script type="module" src="/src/main.js"></script>
+    
+    <!-- 简单的加载状态 -->
+    <style>
+        #app:empty::before {
+            content: "加载中...";
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            font-size: 1.2rem;
+            color: #667eea;
+            font-family: 'Inter', sans-serif;
+        }
+    </style>
 </body>
 </html>
