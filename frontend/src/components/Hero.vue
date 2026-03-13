@@ -3,7 +3,7 @@
     <div class="container">
       <div class="hero-content">
         <div class="hero-text">
-          <h1 class="hero-title">Welcome!</h1>
+          <h1 class="hero-title">Fdy Welcome!</h1>
           <p class="hero-subtitle">欢迎来到我的主页，希望通过这个主页你可以了解我、我的项目和我的技术爱好。</p>
           <p class="hero-description">
             GitHub 地址：<a href="https://github.com/panzerdream" target="_blank" class="github-link">我的GitHub</a>

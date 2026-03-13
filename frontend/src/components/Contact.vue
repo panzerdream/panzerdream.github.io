@@ -10,7 +10,8 @@
             </div>
             <div class="contact-details">
               <h3>邮箱</h3>
-              <p>contact@example.com</p>
+              <p>panzerdream@163.com</p>
+              <p>xuyao0505@outlook.com</p>
             </div>
           </div>
           <div class="contact-item">
@@ -19,7 +20,7 @@
             </div>
             <div class="contact-details">
               <h3>电话</h3>
-              <p>+86 138 0000 0000</p>
+              <p>+86 18203872655</p>
             </div>
           </div>
           <div class="contact-item">
@@ -28,7 +29,7 @@
             </div>
             <div class="contact-details">
               <h3>地址</h3>
-              <p>中国，北京</p>
+              <p>中国，河南南阳</p>
             </div>
           </div>
         </div>

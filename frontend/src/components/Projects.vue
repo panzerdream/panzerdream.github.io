@@ -21,7 +21,7 @@
           <div class="project-icon">
             <i class="fas fa-chart-line"></i>
           </div>
-          <h3 class="project-title">数据分析仪表板</h3>
+          <h3 class="project-title">可视化数据分析仪表板</h3>
           <p class="project-description">
             实时数据可视化仪表板，支持多种图表类型和数据源，提供深入的数据分析功能。
           </p>
@@ -35,9 +35,9 @@
           <div class="project-icon">
             <i class="fas fa-mobile-alt"></i>
           </div>
-          <h3 class="project-title">移动应用</h3>
+          <h3 class="project-title">微信小程序移动应用</h3>
           <p class="project-description">
-            跨平台移动应用，提供任务管理、日程安排和团队协作功能，支持iOS和Android。
+            基于仓储食材及个人烹饪技能的个性化餐饮推荐系统，可根据食材剩余量推荐合适的烹饪方案。
           </p>
           <div class="project-tech">
             <span class="tech-tag">React Native</span>
@@ -51,7 +51,7 @@
           </div>
           <h3 class="project-title">个人博客系统</h3>
           <p class="project-description">
-            一个现代化的博客平台，支持Markdown编辑、文章分类、评论系统和SEO优化。
+            一个现代化的多维度博客平台，支持Markdown编辑、文章分类、评论系统和SEO优化。
           </p>
           <div class="project-tech">
             <span class="tech-tag">Next.js</span>

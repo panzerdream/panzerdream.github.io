@@ -77,9 +77,9 @@
               </div>
             </div>
             <div class="skill-item">
-              <span class="skill-name">Nginx</span>
+              <span class="skill-name">喜欢冯姿颖</span>
               <div class="skill-bar">
-                <div class="skill-level" style="width: 75%"></div>
+                <div class="skill-level" style="width: 100%"></div>
               </div>
             </div>
             <div class="skill-item">
